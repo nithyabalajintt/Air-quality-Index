@@ -1,0 +1,12 @@
+[build]
+  functions = ""C:\Users\338571\venv\Air Quality\functions""
+
+# Specify the directory where your build command puts the site files
+# This example assumes the default publish directory. Adjust if necessary.
+publish = "."
+
+# Settings for build command, adjust according to your frontend build tools
+# (omit this section if not applicable for static files)
+[build.environment]
+  NODE_VERSION = "14.17.0"
+  PYTHON_VERSION = "3.10.0"
